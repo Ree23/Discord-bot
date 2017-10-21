@@ -6,7 +6,7 @@ class Watchafaboulas:
         self.Human_Boi = Human_Boi
 
 
-    @commands.command(name= "ping")
+    @commands.command(name="ping")
     async def ping(self, ctx):
         await ctx.send("pong")
 def setup(Human_Boi):

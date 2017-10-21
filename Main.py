@@ -4,7 +4,7 @@ from discord.ext import commands
 extensions = (
     "cogs.Watchafaboulas"
 )
-Human_Boi = commands.Bot(command_prefix=("*"))
+Human_Boi = commands.Bot(command_prefix="*")
 
 
 def main():
